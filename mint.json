@@ -45,9 +45,9 @@
     {
       "group": "Quickstart",
       "pages": [
-        "/quickstart/nextjs",
-        "/quickstart/remix",
-        "/quickstart/other"
+        "quickstart/nextjs",
+        "quickstart/remix",
+        "quickstart/other"
       ]
     }
   ],
