@@ -18,27 +18,27 @@ npm create next-app@latest
 <Steps titleSize="h3">
 <Step  title="Install">
 
-Now install the `maple-sdk` package
+Now install the `safesight` package
 
 <Tabs>
   <Tab title="npm">
   ```bash
-    npm install maple-sdk
+    npm install safesight
     ```
   </Tab>
   <Tab title="pnpm">
   ```bash
-    pnpm add maple-sdk
+    pnpm add safesight
     ```
   </Tab>
   <Tab title="yarn">
   ```bash
-    yarn add maple-sdk
+    yarn add safesight
     ```
   </Tab>
   <Tab title="bun">
   ```bash
-    bun install maple-sdk
+    bun install safesight
     ```
   </Tab>
 </Tabs>
@@ -50,7 +50,7 @@ Add the provider in your apps root layout,
 with your previously created websites token.
 
 ```ts /app/layout.ts
-import { Analytics } from 'maple-sdk/react'
+import { Analytics } from 'safesight/react'
  
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
